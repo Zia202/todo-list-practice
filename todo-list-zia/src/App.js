@@ -1,7 +1,6 @@
 import React , { useState } from 'react';
 import './App.css';
-import TodoList from './TodoList';
-  const App =()=> {
+   const App =()=> {
 
   const Employes=[
     {
@@ -24,7 +23,7 @@ import TodoList from './TodoList';
   },
   {
     id:"30",
-    employeName:"Hadi",
+    employeName:"Ali",
     age:40,
     gender:"Male", 
   }
@@ -92,7 +91,7 @@ return(
   <div className='employe'>
 
   <h3 key={data.id}>
-    ID: {allEmp.id}<br></br>
+    Id: {allEmp.id}<br></br>
     Name: {allEmp.employeName}<br></br>
     Age: {allEmp.age}<br></br>
     Gender: {allEmp.gender}</h3>
